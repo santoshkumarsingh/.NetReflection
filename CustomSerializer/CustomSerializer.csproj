@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="MyDataContractAttribute.cs" />
     <Compile Include="MySerializer.cs" />
+    <Compile Include="NUnit.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

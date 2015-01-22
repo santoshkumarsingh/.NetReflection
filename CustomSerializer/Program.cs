@@ -23,6 +23,8 @@ namespace CustomSerializer
             stream.Seek(0, SeekOrigin.Begin);
             s.WriteObject(stream, people);
             Console.WriteLine(Encoding.UTF8.GetString(stream.GetBuffer()));
+            NUnit n = new NUnit();
+            n.Test();
         }
     }
 }

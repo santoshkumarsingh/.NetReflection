@@ -44,8 +44,8 @@ namespace CustomSerializer
                         foreach (PropertyInfo currentProperty in objectProperties)
                         {
                             string propertyValue = currentProperty.GetValue(myObject, null).ToString();
-                           // Console.WriteLine(propertyValue);
-                            writer.Write("\t<" + currentProperty.Name + ">" + propertyValue + "</" + currentProperty.Name + ">");
+                            // Console.WriteLine(propertyValue);
+                            writer.Write("<" + currentProperty.Name + ">" + propertyValue + "</" + currentProperty.Name + ">");
                         }
 
                         // Skip a line between objects  
